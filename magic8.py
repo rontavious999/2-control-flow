@@ -2,6 +2,7 @@ import random
 
 name = str(input("What is your name? "))
 question = str(input("What is your question? "))
+answer = ""
 
 random_number = random.randint(1, 13)
 
