@@ -3,7 +3,7 @@ if weight == "" or weight <= 0:
   print("Please check your weight and try again")
 else:
   print("Indianapolis Shipping Depot:")
-  print("The costs, based on the weight you provided of " + str(weight) + " lbs. are:" + "\n")
+  print("The cost, based on the weight you provided of " + str(weight) + " lbs. is:" + "\n")
 #ground shipping
   if weight <= 2:
     ground_cost = (weight * 1.50) + 20.00
