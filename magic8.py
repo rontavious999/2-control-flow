@@ -1,8 +1,8 @@
 import random
 
 name = "Ronnie"
-question = "Will it snow tomorrow?"
-answer = ""
+name = str(input("What is your name? "))
+question = str(input("What is your question? "))
 
 random_number = random.randint(1, 13)
 
