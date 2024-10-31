@@ -1,4 +1,4 @@
-weight = 10
+weight = float(input("Enter the weight of your package: "))
 if weight == "" or weight <= 0:
   print("Please check your weight and try again")
 else:
