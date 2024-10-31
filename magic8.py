@@ -1,6 +1,5 @@
 import random
 
-name = "Ronnie"
 name = str(input("What is your name? "))
 question = str(input("What is your question? "))
 
